@@ -1,37 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-.logo-navbar-cachorro{
-    width: 10%;
-    height: auto;
-    overflow: hidden;
-}
-.bg-azul-ceu{
-    background-color:#6dbff5c5;
-}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 
 
-.imagem-carrossel{
-    object-fit: cover;
-    height: 450px;
+
+.logo-navbar-cachorro {
+  width: 10%;
+  height: auto;
+  overflow: hidden;
 }
-.fonte-pacifico{
-    font-family: 'Pacifico', cursive;
+.bg-azul-ceu {
+  background-color: #67bddf;
+}
+.bg-transparente {
+  background-color: #ffffff00;
+}
+.imagem-carrossel {
+  object-fit: cover;
+  height: 450px;
+}
+.fonte-pacifico {
+  font-family: "Pacifico", cursive;
+}
+.fonte-candy{
+    font-family: 'Emilys Candy', cursive;
+    font-weight: bold;
 }
 
-.label-carrossel{
-    
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    background-color: #F2A08B;
-    border: 1px gray solid;
-    border-radius: 3px 3px 100px 3px;
+.fundo-logo-grande{
     margin: auto;
-   
+    border-radius: 300px 300px 300px 300px;
+    background-color: #ffffff;
 }
-.font-color-marrom{
-    color:#463a2e;
+.bg-azul-gradient{
+    background: rgb(1,213,247);
+    background: linear-gradient(90deg, rgba(1,213,247,1) 0%, rgba(0,212,255,1) 25%, rgba(0,108,255,1) 50%, rgba(0,212,255,1) 75%, rgba(1,213,247,1) 100%);
 }
+.label-carrossel {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-color: #f2a08b;
+  border: 1px gray solid;
+  border-radius: 3px 3px 100px 3px;
+  margin: auto;
+}
+
+.rosquinha-size {
+    width: 80px;
+    height: 80px;
+}
+.font-color-marrom {
+  color: #463a2e;
+}
+.receitas{
+   background-color: #ffffff;
+}
+.card {
+  width: fit-content;
+  border-style: none;
+  border-radius: 1px 1px 50px 1px;
+  background-color: #6dbff500;
+}
+.card-img-borda{
+    border-radius: 100px 100px 100px 100px; 
+}
+.btn-primary {
+  width: 100%;
+  border-style: none;
+  border-radius: 1px 1px 50px 1px;
+}
+.largura-card{
+    width: 18rem;
+}
+
+.card-posicao-img {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 200px;
+}
+
+
+
+
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
@@ -39,26 +89,27 @@
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  }
-  @-webkit-keyframes slideInRight {
+}
+
+@-webkit-keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  }
-  @keyframes slideInRight {
+}
+@keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  } 
+}
