@@ -38,7 +38,6 @@ li {
   background-color: #7fd6f8;
 }
 
-
 .bg-transparente {
   background-color: #ffffff00;
 }
@@ -123,12 +122,14 @@ li {
   height: 50px;
   padding: 0;
 }
-
-.bg-fundo-footer{
+.mapa {
+  border-radius: 50px 50px 50px 50px;
+}
+.bg-fundo-footer {
   background-color: #463a2e;
 }
 
-.logo-footer{
+.logo-footer {
   max-width: 200px;
   max-height: 200;
 }
@@ -145,7 +146,6 @@ li {
   border-style: none;
   border-radius: 20px 20px 20px 20px;
 }
-
 
 /*modal*/
 .logo-modal {
