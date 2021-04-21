@@ -9,6 +9,10 @@ decidi por uma estrategia que nao me consumisse muito tempo. Esta coube como uma
 header {
   padding-right: 0 !important;
 }
+ul,
+li {
+  list-style-type: none;
+}
 .fonte-pacifico {
   font-family: "Pacifico", cursive;
 }
@@ -33,6 +37,7 @@ header {
 .bg-azul-ceu {
   background-color: #7fd6f8;
 }
+
 
 .bg-transparente {
   background-color: #ffffff00;
@@ -76,14 +81,18 @@ header {
   object-fit: cover;
   height: 450px;
 }
-
+.imagem-carrossel-1 {
+  object-fit: cover;
+  height: 450px;
+  object-position: 0 80%;
+}
 .label-carrossel {
   width: auto;
   height: auto;
   overflow: hidden;
   background-color: #f2a08b;
   border: 1px gray solid;
-  border-radius: 3px 3px 100px 3px;
+  border-radius: 3px 3px 3px 3px;
   margin: auto;
 }
 
@@ -100,13 +109,28 @@ header {
 }
 /*Controle das imagens dos cards*/
 .card-img-borda {
-  border-radius: 100px 100px 100px 100px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .card-img-posicao {
   object-fit: cover;
   object-position: 0 0;
   height: 200px;
+}
+
+.icone-social {
+  max-width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.bg-fundo-footer{
+  background-color: #463a2e;
+}
+
+.logo-footer{
+  max-width: 200px;
+  max-height: 200;
 }
 
 /*Controle dos botoes do site*/
@@ -122,10 +146,6 @@ header {
   border-radius: 20px 20px 20px 20px;
 }
 
-.card-footer {
-  width: 100%;
-  height: 250px;
-}
 
 /*modal*/
 .logo-modal {
@@ -170,4 +190,3 @@ header {
   width: auto;
   height: 700px;
 }
-
