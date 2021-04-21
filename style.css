@@ -1,40 +1,84 @@
+/*Fontes*/
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
 
+/*Tive que adicionar um !important para corrigir um glitch do bootstrap onde sempre que um modal 
+abria, ele adicionava à tag header 15px a direita, oque estava me incomodando. Para nao 
+precisar baixar todos os arquivos do bootstrap, instalar localmente e manipular o .js 
+decidi por uma estrategia que nao me consumisse muito tempo. Esta coube como uma luva  */
+header {
+  padding-right: 0 !important;
+}
+.fonte-pacifico {
+  font-family: "Pacifico", cursive;
+}
 
+.fonte-candy {
+  font-family: "Emilys Candy", cursive;
+  font-weight: bold;
+}
 
+.fonte-cor-marrom {
+  color: #463a2e;
+}
+
+/*Controle da rosquinha que divide o conteudo. */
+.rosquinha-tamanho {
+  width: 70px;
+  height: 70px;
+}
+
+/*backgrounds*/
+
+.bg-azul-ceu {
+  background-color: #7fd6f8;
+}
+
+.bg-transparente {
+  background-color: #ffffff00;
+}
+
+.bg-logo-grande {
+  margin: auto;
+  border-radius: 300px 300px 300px 300px;
+  background-color: #ffffff;
+}
+
+.bg-azul-gradient {
+  background: rgb(1, 213, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 213, 247, 1) 0%,
+    rgba(0, 212, 255, 1) 25%,
+    rgb(63, 143, 255) 50%,
+    rgba(0, 212, 255, 1) 75%,
+    rgba(1, 213, 247, 1) 100%
+  );
+}
+
+.bg-branco {
+  background-color: #ffffff;
+}
+.bg-footer {
+  background-image: url(./src/imagens/imagem-footer.png);
+}
+/*Barra de navegaçao*/
 .logo-navbar-cachorro {
   width: 10%;
   height: auto;
   overflow: hidden;
 }
-.bg-azul-ceu {
-  background-color: #67bddf;
-}
-.bg-transparente {
-  background-color: #ffffff00;
-}
+
+/*main*/
+
+/*Section inicio da pagina*/
+
+/*Section do Carrossel */
 .imagem-carrossel {
   object-fit: cover;
   height: 450px;
 }
-.fonte-pacifico {
-  font-family: "Pacifico", cursive;
-}
-.fonte-candy{
-    font-family: 'Emilys Candy', cursive;
-    font-weight: bold;
-}
 
-.fundo-logo-grande{
-    margin: auto;
-    border-radius: 300px 300px 300px 300px;
-    background-color: #ffffff;
-}
-.bg-azul-gradient{
-    background: rgb(1,213,247);
-    background: linear-gradient(90deg, rgba(1,213,247,1) 0%, rgba(0,212,255,1) 25%, rgba(0,108,255,1) 50%, rgba(0,212,255,1) 75%, rgba(1,213,247,1) 100%);
-}
 .label-carrossel {
   width: auto;
   height: auto;
@@ -45,43 +89,53 @@
   margin: auto;
 }
 
-.rosquinha-size {
-    width: 80px;
-    height: 80px;
-}
-.font-color-marrom {
-  color: #463a2e;
-}
-.receitas{
-   background-color: #ffffff;
-}
+/*Cards*/
 .card {
   width: fit-content;
   border-style: none;
   border-radius: 1px 1px 50px 1px;
   background-color: #6dbff500;
 }
-.card-img-borda{
-    border-radius: 100px 100px 100px 100px; 
+
+.largura-card {
+  max-width: 20rem;
+}
+/*Controle das imagens dos cards*/
+.card-img-borda {
+  border-radius: 100px 100px 100px 100px;
+}
+
+.card-img-posicao {
+  object-fit: cover;
+  object-position: 0 0;
+  height: 200px;
+}
+
+/*Controle dos botoes do site*/
+.btn-modal {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border-style: none;
 }
 .btn-primary {
   width: 100%;
   border-style: none;
-  border-radius: 1px 1px 50px 1px;
-}
-.largura-card{
-    width: 18rem;
+  border-radius: 20px 20px 20px 20px;
 }
 
-.card-posicao-img {
-    object-fit: cover;
-    object-position: 0 0;
-    height: 200px;
+.card-footer {
+  width: 100%;
+  height: 250px;
 }
 
+/*modal*/
+.logo-modal {
+  width: 100px;
+  height: 100px;
+}
 
-
-
+/*Efeitos especiais*/
 .slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
@@ -112,4 +166,9 @@
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+.secao {
+  width: auto;
+  height: 800px;
 }
