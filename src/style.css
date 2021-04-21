@@ -59,9 +59,7 @@ header {
 .bg-branco {
   background-color: #ffffff;
 }
-.bg-footer {
-  background-image: url(./src/imagens/imagem-footer.png);
-}
+
 /*Barra de navegaçao*/
 .logo-navbar-cachorro {
   width: 10%;
