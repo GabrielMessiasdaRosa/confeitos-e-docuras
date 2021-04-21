@@ -125,6 +125,9 @@ li {
 .mapa {
   border-radius: 50px 50px 50px 50px;
 }
+.texto-final{
+  font-size: 4em;
+}
 .bg-fundo-footer {
   background-color: #463a2e;
 }
