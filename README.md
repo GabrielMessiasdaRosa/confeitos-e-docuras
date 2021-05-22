@@ -1,5 +1,6 @@
 # confeitos-e-docuras
 <p>🔷  Status de desenvolvimento: ✅  Finalizado </p>
+URL GitHub Pages > https://gabrielmessiasdarosa.github.io/confeitos-e-docuras/
 
 
 
